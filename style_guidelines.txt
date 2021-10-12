@@ -1,0 +1,19 @@
+Design:
+Colors	(light theme)
+#A2C1EA
+#A2EACB
+#868898
+#F5F5F5
+#9193A1
+Font
+Quesha
+Style 
+Minimalistic, clean, and simple
+Organized into divs and tables
+Mainly Centered
+Text parallel to images/content
+Slideshow images
+Background images on title page
+Small Animations
+
+After intense consultation, our team has come to the conclusion that our website should adopt a vastly minimalistic sleek appearance in order to mirror the feeling that can be produced from visiting a hospital or any special aid facility. The goal of our website is to be accessible in its nature, as it is designed specifically for people with underlying conditions. Therefore, we decided to only display the important and relevant information in a manner that attracts attention and addresses the issue at hand immediately. This results in a mainly centered design for our paragraphs, images and various other forms of content. However, we still decided to add some unique artistic choices, so we have come to the decision to include background images and potentially have an automatic process to change the images in the background dynamically. 
