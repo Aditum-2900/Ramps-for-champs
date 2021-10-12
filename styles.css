@@ -1,2 +1,45 @@
-/* body {
-} */
+#Title
+{
+    text-align: center;
+    color: #A2C1EA;
+    font-weight: normal;
+    
+}
+body
+{
+    background-color: #868898;
+    font-family: 'Quesha';
+    font-weight: normal;
+    font-size: 25px;
+
+}
+#subTitle
+{
+    text-align: center;
+    color: #A2EACB;
+    font-weight: lighter;
+
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.subMainLink
+{
+    display: inline-block;
+    text-decoration: none;
+    Color: #F5F5F5;
+    border: 2px groove #F5F5F5;
+    padding: 7px;
+    
+}
+footer
+{
+    background-color: #9193A1;
+}
+#Summary
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
