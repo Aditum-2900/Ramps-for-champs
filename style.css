@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Quesha';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quesha'), url('https://fonts.cdnfonts.com/s/22658/Quesha.woff') format('woff');
+}
 #Title
 {
     text-align: center;
