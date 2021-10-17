@@ -49,3 +49,12 @@ footer
     margin-left: 300px;
     margin-right: 300px;
 }
+
+#UtilityTable
+{
+    background-color: #A4A6B2;
+}
+.text,.content
+{
+    background-color: #9193A1;
+}
