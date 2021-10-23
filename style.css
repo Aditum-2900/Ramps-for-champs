@@ -44,19 +44,53 @@ footer
 {
     background-color: #9193A1;
 }
+#aboutContainer  
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 25px;
+    background-color: #e9ecef;
+}
+
 #Summary
 {
     margin-left: 300px;
     margin-right: 300px;
+    border-radius: 25px;
+    background-color: #e9ecef;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#UtilityTable
+#SummaryTable
 {
-    background-color: #A4A6B2;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.text,.content
+
+
+.text
 {
     background-color: #9193A1;
+}
+
+#contactUsContainer
+{
+    border-radius: 25px;
+    background-color: #e9ecef;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contactUsItem
+{
+    border-radius: 25px;
+    background-color: #78c2ad;
+    padding-left:20px;
+    
+
 }
 
 .logo{
@@ -66,3 +100,33 @@ footer
 
 }
 
+/*
+#indexContainer
+{
+    border-radius: 25px;
+    background-color: #e9ecef;
+}*/
+
+footer
+{
+    text-align: center;
+}
+.relFooter
+{
+    position:relative;
+    width:100%;
+    bottom:0px;
+}
+
+.absFooter
+{
+
+    position:absolute;
+    width:100%;
+    bottom:0px;
+}
+
+a:hover
+{
+    font-weight: bolder;
+}

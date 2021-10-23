@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name ="viewport" content ="width=device-width, initial-scale=1.0">
-<title>Contact Us Now!</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Contact Us Now!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-        .container,  .content{
-            margin-left: 100px;
-        }
+      
+
+        #linkBackHome
+		{
+			position: relative;
+			left: 0px;
+			width: 0%;
+		}
+		#AboutTitle
+		{
+			vertical-align: middle;
+			padding:0;
+		}
+		#aboutHeaderTable
+		{
+			width: 100%;
+
+		}
     </style>
-    <section class="contact">
-        <div class="content">
+</head>
+<header>
+    <table id="aboutHeaderTable">
+        <tbody>
+            <tr>
+                <td id="linkBackHome">
+                    <a href="index.html">
+                    <img class ="logo" src="./img/logo.png" alt="Our logo" ></a>
+
+                </td>
+                <td  id="AboutTitle">
+                    <h1> Contact US</h1>
+
+                </td>
+            </tr>
+            <tr>
+                
+            </tr>
+        </tbody>
+    </table>
+</header>
+<body>
+        <!--div class="content">
             <img class ="logo" src="./img/logo.png" alt="Our logo" align="right">
             <h2>Contact Us!</h2>
             <p>Welcome to our contact page. 
@@ -46,28 +80,63 @@
                     </div>
                 </div> 
             </div>       
+        </div-->
+
+        <div id = "contactUsContainer"> 
+            <!--
+            <img class ="logo" src="./img/logo.png" alt="Our logo" align="right">
+            <h2>Contact Us!</h2>-->
+            <p>Welcome to our contact page. 
+            Here you will find our address, telephone number and Email. 
+            <br>Do not hesitate to contact us between the hours of 8:00AM and 6:00PM if you ever need help with anything!</p>
+            <div class="contactUsItem">
+                <h3>Address</h3>
+                <p>7407 Grand St. <br>Ottawa, Ontario <br>K1N9A7</p>
+            </div>
+            <div class="contactUsItem">
+                <h3>Email</h3>
+                <p>AditumRFC@company.ca</p>
+            </div>
+            <div class="contactUsItem">
+                <h3>Phone</h3>
+                <p>613-474-4444</p>
+            </div>
+
         </div>
-    </section>
 </body>
-<footer>
-    <table>
-        <tr>
-            <td class="mainLink">
+<footer class = "relFooter">
+    <div>
+        <div>
+          <table>
+            <tr>
+              <td class="mainLink">
+                <a href="index.html" class="subMainLink">Home</a>
+              </td>
+              <td class="mainLink">
                 <a href="about.html" class="subMainLink">About us</a>
-            </td>
-            <td class="mainLink">
+              </td>
+              <td class="mainLink">
                 <a href="Products.html" class="subMainLink">Products</a>
-            </td>
-            <td class="mainLink">
+              </td>
+              <td class="mainLink">
                 <a href="ContactUS.html" class="subMainLink">Contact us</a>
-            </td>
-            <td class="mainLink">
+              </td>
+              <td class="mainLink">
                 <a href="Utility.html" class="subMainLink">Our utility</a>
-            </td>
-            <td class="mainLink">
+              </td>
+              <td class="mainLink">
                 <a href="goals.html" class="subMainLink">Our goals</a>
-            </td>
-        </tr>
-    </table>
-  </footer>  
+              </td>
+            </tr>
+            <tr>
+              <td colspan="6">
+                <p> © 2021, Aditum Company </p>
+              </td>	
+            </tr>
+            
+          </table>
+      
+        </div>
+      </div>
+      </footer>
 </html>
