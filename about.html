@@ -10,21 +10,22 @@
 			text-align: center;
 		}
 
-		.column {
-		margin-left: 100px;
-		float: left;
-		width: 20%;
+		.card {
+			margin-left: 100px;
+			float: left;
+			width: 20%;
 		}
 		#introParagraph
 		{
+			padding-top: 15px;
 			margin-left: 100px;
 			margin-right: 100px;
 		}
 	
-		.row:after {
-		content: "";
-		display: table;
-		clear: both;
+		.cards:after {
+			content: "";
+			display: table;
+			clear: both;
 		}
 		#linkBackHome
 		{
@@ -40,14 +41,30 @@
 		#aboutHeaderTable
 		{
 			width: 100%;
-
 		}
 		
 		.logo
 		{
 			padding:0;
 			margin:0;
+			position: absolute;
 		}
+
+		.cards img {
+			border-radius: 50%;
+		}
+
+		.cards h3{
+			margin-top: 20px;
+			margin-bottom: 10px;
+			background-color: #78c2ad;
+			color:white;
+		}
+
+		.cards .card img:hover {
+			opacity: 0.2;
+			transition: opacity 0.5s;
+		} 
 		</style>
 </head>
 <body>
@@ -75,41 +92,40 @@
 	<div id="aboutContainer">
 		<div id="introParagraph">
 			<h2> Faciliate Accesibility Worldwide </h2>
-
-			<p> We are a team of five striving to solve daily problems to improve the lives of those whose's needs are often overlooked. The creation of affordable wheelchairs with portable ramps allows the handicapped population to access the many places that aren't wheelchair accessible.
+			<p> We are a team of five striving to solve daily problems to improve the lives of those whose's needs are often overlooked. Globally, there are approximately 65 million people in the world who use wheelchairs daily. The creation of affordable wheelchairs with portable ramps allows the handicapped population to access the many places that aren't wheelchair accessible.
 			</p>
 		</div>
 		<h2> Meet the Team </h2>
 		
-		<div class = "row">
-			<div class = "column">
-				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQGFLlqJGVtzxQ/profile-displayphoto-shrink_200_200/0/1631067530540?e=1639612800&v=beta&t=YH6fUzd6D9jzQfu4F14lezdptYYv2e7o-EIiYu_wHPw" alt="Jaafar Soudani" width="200px" height="200px">
+		<div class = "cards">
+			<div class = "card">
+				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQGFLlqJGVtzxQ/profile-displayphoto-shrink_200_200/0/1631067530540?e=1639612800&v=beta&t=YH6fUzd6D9jzQfu4F14lezdptYYv2e7o-EIiYu_wHPw" title = "Student at University of Ottawa" alt="Jaafar Soudani" width="200px" height="200px">
 				<h3>Jaafar Soudani</h3>
 				<p>Student at University of Ottawa</p>
 			</div>
 
-			<div class = "column"> 
+			<div class = "card"> 
 				<img src="https://media-exp1.licdn.com/dms/image/C4D03AQHCI_fdesBwyw/profile-displayphoto-shrink_200_200/0/1632497767736?e=1639612800&v=beta&t=yiy8zVDM11DsEw_KIzi-jJGVESSLTYxxigfQqS9tuCc" alt="Jessica Chen" width="200px" height="200px">
 				<h3>Jessica Chen</h3>
 				<p>Student at University of Ottawa</p>
 
 			</div>
 
-			<div class = "column"> 
+			<div class = "card"> 
 				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQHpTevBBHRRQA/profile-displayphoto-shrink_200_200/0/1632876430118?e=1639612800&v=beta&t=38nbcQTkrBlOcOCpa7L-B9wMjR_Ic6Dp1Itowo4sPmg" alt="Joseph Markhol">
 				<h3>Joseph Makhol</h3>
 				<p>Student at University of Ottawa</p>
 
 			</div>
 
-			<div class = "column"> 
+			<div class = "card"> 
 				<img src="https://development.wyndhamhotels.com/wp-content/uploads/2018/05/Default-Avatar.jpg" alt="Rémi Gros-Jean" width="200px" height="200px">
 				<h3>Rémi Gros-Jean</h3>
 				<p>Student at University of Ottawa</p>
 
 			</div>
 
-			<div class = "column"> 
+			<div class = "card"> 
 				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQEKQhdRvnBt_A/profile-displayphoto-shrink_200_200/0/1616186718707?e=1639612800&v=beta&t=zd0uZWdWKj3BjavjSV87YGuVUjjx8-bwPnmP59gWOW4" alt="Zakaria Abdisalam" width="200px" height="200px">
 				<h3>Zakaria Abdisalam</h3>
 				<p>Student at University of Ottawa</p>
