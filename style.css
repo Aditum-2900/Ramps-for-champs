@@ -38,6 +38,9 @@ table
     Color: #F5F5F5;
     border: 2px groove #F5F5F5;
     padding: 7px;
+    margin: 10px;
+    border-radius: 12px;
+    text-align: center;
     
 }
 footer
